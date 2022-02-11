@@ -1,10 +1,10 @@
-﻿// Задача 29
-/*Console.Write21("Введите число 1: ");
+﻿// Задача 29: Написать программу вычисления чисел от 1 до N.
+/*Console.Write("Введите число 1: ");
 int n = int.Parse(Console.ReadLine());
 int m = 1;
 for(int i = 1; i <= n; i++)
 {
-    m = n * i;
+    m = m * i;
 }
 Console.WriteLine(m);*/
 
@@ -21,4 +21,4 @@ return m;
 Console.Write("Введите число 1: ");
 int n = int.Parse(Console.ReadLine());
 int f = Factorial(n);
-Console.Write(f);
+Console.Write(f); 
